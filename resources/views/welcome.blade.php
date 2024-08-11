@@ -65,7 +65,7 @@
 <body class="bg-gray-100 text-gray-800 flex">
 
     <!-- Sidebar -->
-    <aside class="sidebar bg-purple-600 text-white p-6">
+    <aside class="sidebar bg-purple-900 text-white p-6">
         <h1 class="text-3xl font-bold mb-8">VetServer API</h1>
         <nav class="space-y-4">
             <a href="#owners" class="block text-lg font-semibold hover:bg-purple-700 p-2 rounded">Owners</a>
@@ -78,7 +78,7 @@
     <!-- Main Content -->
     <div class="main-content flex-1 p-8">
         <div id="introduction" class="mb-12">
-            <h2 class="text-4xl font-bold text-purple-600 mb-8">Introduction</h2>
+            <h2 class="text-4xl font-bold text-purple-900 mb-8">Introduction</h2>
             <div class="bg-white shadow-md rounded-lg p-6">
                 <p class="mb-4">
                     Welcome to the VetServer API, your comprehensive solution for managing veterinary operations efficiently and effectively. Whether you're a developer integrating with our system or a veterinary professional seeking to streamline clinic operations, this API offers robust capabilities to manage owners, pets, appointments, and treatments.
@@ -93,7 +93,7 @@
         </div>
 
         <div id="owners" class="mb-12">
-            <h3 class="text-3xl font-semibold text-purple-600 mb-4">Owners</h3>
+            <h3 class="text-3xl font-semibold text-purple-900 mb-4">Owners</h3>
             <div class="bg-get shadow-md rounded-lg p-6 mb-6">
                 <h4 class="text-xl font-semibold mb-2">GET /api/owners</h4>
                 <p>Retrieves a list of all owners.</p>
@@ -135,7 +135,7 @@
         </div>
 
         <div id="pets" class="mb-12">
-            <h3 class="text-3xl font-semibold text-purple-600 mb-4">Pets</h3>
+            <h3 class="text-3xl font-semibold text-purple-900 mb-4">Pets</h3>
             <div class="bg-get shadow-md rounded-lg p-6 mb-6">
                 <h4 class="text-xl font-semibold mb-2">GET /api/pets</h4>
                 <p>Retrieves a list of all pets.</p>
@@ -180,7 +180,7 @@
         </div>
 
         <div id="appointments" class="mb-12">
-            <h3 class="text-3xl font-semibold text-purple-600 mb-4">Appointments</h3>
+            <h3 class="text-3xl font-semibold text-purple-900 mb-4">Appointments</h3>
             <div class="bg-get shadow-md rounded-lg p-6 mb-6">
                 <h4 class="text-xl font-semibold mb-2">GET /api/appointments</h4>
                 <p>Retrieves a list of all appointments.</p>
@@ -216,7 +216,7 @@
             </div>
         </div>
         <div id="treatments" class="mb-12">
-            <h3 class="text-3xl font-semibold text-purple-600 mb-4">Treatments</h3>
+            <h3 class="text-3xl font-semibold text-purple-900 mb-4">Treatments</h3>
             <div class="bg-get shadow-md rounded-lg p-6 mb-6">
                 <h4 class="text-xl font-semibold mb-2">GET /api/treatments</h4>
                 <p>Retrieves a list of all treatments.</p>
